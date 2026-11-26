@@ -1,0 +1,53 @@
+shop-title: '&8MC Forge CoinShop'
+currency-name: Coins
+categories:
+  keys:
+    title: '&6Keys'
+    icon: TRIPWIRE_HOOK
+    items:
+      example:
+        display: '&6Example Key'
+        material: TRIPWIRE_HOOK
+        price: 500
+        commands:
+          - 'crate key give %player% example 1'
+  tags:
+    title: '&bTags'
+    icon: NAME_TAG
+    items:
+      king:
+        display: '&6[ KING ]'
+        material: NAME_TAG
+        price: 5000
+        commands:
+          - 'lp user %player% permission set mcforge.tag.king'
+  colors:
+    title: '&dChat Colors'
+    icon: PURPLE_DYE
+    items:
+      red:
+        display: '&cRed Chat'
+        material: RED_DYE
+        price: 1000
+        commands:
+          - 'lp user %player% permission set mcforge.color.red'
+  ranks:
+    title: '&eRanks'
+    icon: GOLD_INGOT
+    items:
+      captain:
+        display: '&6Captain Rank'
+        material: GOLD_INGOT
+        price: 5000
+        commands:
+          - 'lp user %player% parent set captain'
+  vaults:
+    title: '&aVaults'
+    icon: CHEST
+    items:
+      extra:
+        display: '&aExtra Vault'
+        material: CHEST
+        price: 2500
+        commands:
+          - 'vaultplugin give %player% 1'

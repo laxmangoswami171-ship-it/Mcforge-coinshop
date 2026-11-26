@@ -1,0 +1,17 @@
+name: MCForgeCoinShop
+version: 1.0.0
+main: com.mcforge.coinshop.CoinShopPlugin
+api-version: '1.21'
+commands:
+  coinshop:
+    description: Open the CoinShop menu
+    aliases: [cshop]
+  coin:
+    description: Manage Coin balances
+  tags:
+    description: Open tag category
+  colors:
+    description: Open chat color category
+permissions:
+  mcforgecoinshop.admin:
+    default: op
